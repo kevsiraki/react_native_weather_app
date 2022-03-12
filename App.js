@@ -11,7 +11,7 @@ import { LinearGradient } from 'expo-linear-gradient'
 //import { WEATHER_API_KEY } from 'react-native-dotenv'
 
 const BASE_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?'
-const WEATHER_API_KEY = 'df704f384624f9670afe241d7b0dab2c';
+const WEATHER_API_KEY = '';
 export default function App() {
     const [errorMessage, setErrorMessage] = useState(null)
     const [currentWeather, setCurrentWeather] = useState(null)
