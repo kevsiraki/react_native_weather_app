@@ -1,0 +1,30 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/picker": "1.6.0",
+    "expo": "^44.0.2",
+    "expo-linear-gradient": "^11.0.0",
+    "expo-location": "~8.2.1",
+    "expo-status-bar": "^1.0.2",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.1.tar.gz",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-unimodules": "^0.14.10",
+    "react-native-web": "~0.11.7",
+    "unimodules-permissions-interface": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0",
+    "react-native-dotenv": "0.2.0"
+  },
+  "private": true
+}
